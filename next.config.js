@@ -3,6 +3,7 @@ const withPWA = require('next-pwa')({
     register: true,
     skipWaiting: true,
     cacheOnFrontEndNav: true,
+    sw: 'sw.js',
     fallbacks:{
       document: '/offline'
     }
