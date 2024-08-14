@@ -7,7 +7,7 @@ export default function TestPage() {
   return (
     <>
       <div>test3</div>
-      <Link href={"/landing"}>Go Back</Link>
+      <Link href={"/landing"} prefetch={true}>Go Back</Link>
     </>
   );
 }
