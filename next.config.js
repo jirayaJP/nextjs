@@ -1,20 +1,6 @@
-const withPWA = require("@ducanh2912/next-pwa").default({
-  cacheOnFrontEndNav: true,
-  dest: "public",
-  register: true,
-  skipWaiting: true,
-  reloadOnOnline: true,
-  fallbacks: {
-    //image: "/static/images/fallback.png",
-    document: "/offline", // if you want to fallback to a custom page rather than /_offline
-    // font: '/static/font/fallback.woff2',
-    // audio: ...,
-    // video: ...,
-  },
-});
-
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  // ... other options you like
+  reactStrictMode: false,
 };
 
-module.exports = withPWA(nextConfig);
+module.exports = nextConfig;

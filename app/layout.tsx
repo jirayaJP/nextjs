@@ -8,7 +8,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Wanji pwa test",
   description: "pwa test by me",
-  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
