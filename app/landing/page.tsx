@@ -7,10 +7,10 @@ export default function HomePage() {
   return (
     <>
       <div>test2</div>
-      <Link href={"/testPage"} className="text-red-500">
+      <Link href={"/testPage"} className="text-red-500" prefetch={true}>
         Next
       </Link>
-      <Link href={"/page3"} className="text-green-500">
+      <Link href={"/page3"} className="text-green-500" prefetch={true}>
         page3
       </Link>
     </>
