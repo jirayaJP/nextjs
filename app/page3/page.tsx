@@ -7,7 +7,7 @@ export default function TestPage() {
   return (
     <>
       <div>test3</div>
-      <div onClick={() => router.push(`/landing`)}>Go Back</div>
+      <Link href={"/landing"}>Go Back</Link>
     </>
   );
 }
