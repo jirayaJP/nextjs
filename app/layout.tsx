@@ -18,10 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
+      <Head>
       <link rel='manifest' href='/manifest.webmanifest' />
-      <link rel='icon' href='/icons/icon1.png' />
-      </head>
+      <link rel="icon" href="/favicon.ico" />
+      </Head>
       <body className={inter.className}>{children}</body>
     </html>
   );
