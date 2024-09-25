@@ -1,0 +1,18 @@
+{
+    "name": "TestPWA",
+    "short_name": "TestPWA",
+    "theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "display": "minimal-ui",
+    "scope": "/",
+    "start_url": "/",
+    "id": "/",
+    "icon": [
+        {
+        "src": "/icons/icon1.png",
+        "type": "image/png",
+        "sizes": "48x48"
+    }
+
+    ]
+  }

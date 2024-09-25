@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { useEffect } from "react";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+      <link rel='manifest' href='/manifest.webmanifest' />
+      <link rel='icon' href='/icons/icon1.png' />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
