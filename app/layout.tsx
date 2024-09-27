@@ -9,6 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Wanji pwa test",
   description: "pwa test by me",
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
@@ -19,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-      <link rel='manifest' href='/manifest.webmanifest' />
+      <link rel='manifest' href='/manifest.json' />
       <link rel="icon" href="/favicon.ico" />
       </Head>
       <body className={inter.className}>{children}</body>

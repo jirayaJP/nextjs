@@ -53,5 +53,6 @@ const withPWA = require('next-pwa')({
 });
 
 module.exports = withPWA({
+  reactStrictMode: true,
   // Any other next.js configurations can go here
 });
